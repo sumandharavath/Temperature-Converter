@@ -1,0 +1,61 @@
+body{
+  margin-top: 5rem;
+  background-image: url(backimg.avif);
+    
+  }
+  
+  .container {
+    border-radius: 30px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    border: 2px solid white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container .main-h{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: bisque;
+  }
+  
+  .converter input {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+  }
+  
+  .converter select {
+    border-radius: 35px;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .converter button {
+    border-radius: 40px;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .converter button:hover {
+    background-color: #0004fc;
+    transition: 0.3s;
+  }
+  
+  .result-h{
+    border-radius: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+  }
+  
+  
